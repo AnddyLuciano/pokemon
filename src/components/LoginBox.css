@@ -1,0 +1,39 @@
+.login-img{
+    width: 100%;
+    border-radius: 5px 0 0 5px;
+}
+.card-login{
+    border-radius: 9px 5px 5px 9px;
+    box-shadow: 1rem 0.5rem 0.5rem rgba(36, 36, 36, 0.591) !important;
+    background-color: #1d2026;
+}
+.link-login{
+    font-size: 1.2rem;
+}
+
+.input-box{
+    width: 100%;
+    margin-top: 1rem;
+}
+form.user .form-control-user {
+    font-size: .8rem;
+    border-radius: 10rem;
+    padding: 1rem;
+    color: #858796;
+    border: 1px solid #00000084;
+}
+.form-control:focus {
+    color: #858796;
+    border-color: #a7b9ef;
+    outline: 0;
+    box-shadow: 0 0 0 .25rem rgba(78, 114, 223, 0.956);
+}
+
+.modal{
+    --bs-modal-bg:#1d2026;
+    font-size: 1rem;
+}
+.error{
+    font-size: 1rem;
+}
+  

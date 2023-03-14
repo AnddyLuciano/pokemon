@@ -1,0 +1,118 @@
+.section-pokemon{
+    display: flex;
+}
+
+.getImg{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin: 5px 5px;
+    padding: 10px 10px;
+    font-size: 1em;
+    background-color: darkcyan;
+    border-radius: 15px;
+    width: 100%;
+}
+.pokemon-card{
+    background: radial-gradient(circle, rgba(196, 196, 196, 0.658) 0%, rgba(178, 178, 178, 0.496) 100%);
+    border-radius: 10px;
+    margin:3px 3px;
+    height: 10em;
+    width: 6.2em;
+}
+.pokemon-img{
+    margin-bottom: 1.5rem;
+}
+.section-tri{
+    display: flex;
+    margin: 5px 5px;
+    padding: 10px 10px;
+}
+.em10{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 8.1em;
+}
+.tri{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px 15px;
+    background-color: #1d2026;
+    font-size: 1em;
+    border-radius: 15px;
+    width: 100%;
+}
+.btn-search {
+  --bs-btn-padding-x: 2rem;
+  --bs-btn-padding-y: 0.6rem;
+  --bs-btn-font-size: 1rem;
+  --bs-btn-font-weight: 700;
+  --bs-btn-line-height: 1.6;
+  --bs-btn-color: #fff;
+  --bs-btn-bg: transparent;
+  --bs-btn-border-width: 1px;
+  --bs-btn-border-color: transparent;
+  --bs-btn-border-radius: 2rem;
+  --bs-btn-hover-border-color: transparent;
+  --bs-btn-box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.15), 0 1px 1px rgba(0, 0, 0, 0.075);
+  --bs-btn-disabled-opacity: 0.65;
+  --bs-btn-focus-box-shadow: 0 0 0 0.25rem rgba(var(--bs-btn-focus-shadow-rgb), .5);
+  display: inline-block;
+  padding: var(--bs-btn-padding-y) var(--bs-btn-padding-x);
+  font-family: var(--bs-btn-font-family);
+  font-size: var(--bs-btn-font-size);
+  font-weight: var(--bs-btn-font-weight);
+  line-height: var(--bs-btn-line-height);
+  color: var(--bs-btn-color);
+  text-align: center;
+  text-decoration: none;
+  vertical-align: middle;
+  cursor: pointer;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  border: var(--bs-btn-border-width) solid var(--bs-btn-border-color);
+  border-radius: var(--bs-btn-border-radius);
+  background-color: #3763f4;
+  transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+}
+[role=button] {
+  cursor: pointer;
+}
+@media(max-width:1074px){
+    .getImg{
+        width: 99%;
+    }
+}
+@media (max-width:906px) {
+    .tri{
+        display: flex;
+        align-items: center;
+    }
+}
+
+@media (max-width:759px) {
+    .pokemon-card{
+        height: 11em;
+    }
+    .pokemon-card h3{
+        font-size: 1em;
+    }
+    .tri-section{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+}
+@media(max-width:570px){
+    .pokemon-card h3{
+        font-size: 1em;
+    }
+    .pokemon-card{
+        height: 13em;
+    }
+}

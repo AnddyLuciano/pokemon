@@ -1,0 +1,51 @@
+.pin{
+    margin: 3px 16px;
+    padding: 3px 3px;
+    border-radius: 5px 5px;
+    font-size: 0.6em;
+}
+.red{
+    background-color: red;
+}
+.yellow{
+    background-color: rgba(255, 255, 0, 0.639);
+}
+.green{
+    background-color: green;
+}
+.blue{
+    background-color: blue;
+}
+.water-green{
+    background-color:rgba(0, 255, 255, 0.825);
+}
+.brown{
+    background-color: brown;
+}
+.orange{
+    background-color: orange;
+}
+.black-caraway{
+    background-color: rgb(159, 80, 23);
+}
+.grey{
+    background-color: grey;
+}
+.purple{
+    background-color: purple;
+}
+.sky-blue{
+    background-color: skyblue;
+}
+.white{
+    background-color: rgba(245, 245, 245, 0.682);
+}
+.black{
+    background-color: black;
+}
+.pink{
+    background-color: pink;
+}
+.bpurple{
+    background-color: blueviolet;
+}
